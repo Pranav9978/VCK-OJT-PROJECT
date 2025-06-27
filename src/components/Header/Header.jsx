@@ -1,6 +1,5 @@
 import {Link} from 'react-router-dom';
 import './Header.css';
-<<<<<<< HEAD
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -28,28 +27,3 @@ function Header() {
 }
 
 export default Header;
-=======
-import Navbar from 'react-bootstrap/Navbar';
-const Header=()=>{
-    return(
-
-<div>
-            <header className='navbar'>
-                <h3>Vivekanand College</h3>
-               
-                <nav className='nav'> 
-                    <Link className='nav-links' to="/home">Home</Link>
-                    <Link className='nav-links' to="/about">About</Link>
-                    <Link className='nav-links' to="/courses">Courses</Link>
-                    <Link className='nav-links' to="/contact">Contact</Link>
-                      
-                </nav>
-                <button  className='but-hed-nav' > <Link style={{color:'white',backgroundColor:'green',textDecoration:'none'}} to='/admissions'>Apply Now</Link></button>
-            </header>
-
-        </div>
-    )
-}
-export default Header;
-
->>>>>>> c646e82d7b740eb9be189f7c044e9bf2d310aa64

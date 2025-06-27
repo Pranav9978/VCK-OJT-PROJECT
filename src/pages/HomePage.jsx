@@ -8,7 +8,7 @@ const HomePage = () => {
         <div>
             <Header />
             <div className="back">
-                <main className="container1">
+                <div className="container1">
                     <section className="card2">
                         <div class="hero-section">
                             <img src="/public/Images/vck.png" alt="Vivekanand College Banner" class="hero-image" />
@@ -70,7 +70,7 @@ const HomePage = () => {
                             <Button className='but-hed' variant="success">Explore Cources</Button>
                         </div>
                     </section>
-                </main>
+                </div>
             </div>
             <Footer />
         </div>

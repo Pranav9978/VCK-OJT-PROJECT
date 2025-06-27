@@ -6,11 +6,7 @@ const AboutPage = () =>{
         <div>
             <Header/>
          <div className="back">   
-<<<<<<< HEAD
-      <main className="container1">
-=======
-      <main className="container">
->>>>>>> c646e82d7b740eb9be189f7c044e9bf2d310aa64
+      <div className="container1">
         <section className="card2">
           <h1 className="title">About Vivekanand College</h1>
           <p>
@@ -36,7 +32,7 @@ const AboutPage = () =>{
 
         
         </section>
-      </main>
+      </div>
         <Footer/>
         </div>     
         </div>

@@ -6,11 +6,9 @@ const  ContactPage = () =>{
         <div>
             <Header/>
             <div className="back">
-<<<<<<< HEAD
-            <main className="container1">
-=======
-            <main className="container">
->>>>>>> c646e82d7b740eb9be189f7c044e9bf2d310aa64
+
+            <div className="container1">
+            <div className="container">
         <section className="card2">
           <h1 className="title">Contact Us</h1>
           <p style={{textalign:'center'}}>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
@@ -50,10 +48,10 @@ const  ContactPage = () =>{
     </div>
 
         </section>
-      </main>
+      </div>
       </div>
         <Footer/>
-
+        </div>
         </div>
     )
 }

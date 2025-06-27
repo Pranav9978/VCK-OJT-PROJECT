@@ -8,10 +8,6 @@ const Footer = ()=>{
 
 
         </div>
-    )
+    );
 }
-<<<<<<< HEAD
 export default Footer;
-=======
-export default Footer;
->>>>>>> c646e82d7b740eb9be189f7c044e9bf2d310aa64

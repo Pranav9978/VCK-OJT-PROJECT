@@ -7,11 +7,8 @@ const Admissions =()=>{
         <div>
             <Header/>
             <div className="back">
-<<<<<<< HEAD
-             <main className="container1">
-=======
-             <main className="container">
->>>>>>> c646e82d7b740eb9be189f7c044e9bf2d310aa64
+             <div className="container1">
+             
         <section className="card2">
           <h1 className="title">Admissions at Vivekanand College</h1>
           <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.</p>
@@ -58,10 +55,10 @@ const Admissions =()=>{
 <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <Link to="/courses">Courses page</Link> or <Link to="/contact">Contact us</Link> directly.</p>
                 
                     </section>
-                </main>
+                </div>
                 </div>
             <Footer/>
         </div>
-    )
+    );
 }
 export default Admissions;
